@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  letter-spacing: 1.2px;
+  margin: 0;
+  font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
+  color: #484848;
+}
+
+li {
+  list-style: none;
+}
+
+/* 画像拡大 */
+.yy {
+  overflow: hidden;
+}
+
+.yy img {
+  transition-duration: 0.5s;/*変化に掛かる時間*/
+}
+
+.yy img:hover {
+  transform: scale(1.2, 1.2);
+  transition-duration: .5s
+}
+
+header .navbar-brand {
+  font-weight: bold;
+}
+
+header .slide ol li {
+  border: 1px solid black;
+}
+
+header .hehe {
+  color: black;
+}
+
+.hh:before {
+  color: black;
+}
+
+.section-1 {
+  padding: 5rem 0 3rem 0;
+  position: relative;
+}
+
+.section-1 h2 {
+  padding-bottom: 2.5rem;
+}
+
+.section-1 p {
+  font-size: 1.2em;
+}
+
+.section-2 h2 {
+  padding: 2rem 0 0rem 0;
+  font-weight: bold;
+}
+
+.section-2 p {
+  font-size: 1.2em;
+}
+
+.section-3 {
+  background-image: url(https://www.galaxymobile.jp/common/images/main-explore_winter_bg.jpg);
+  background-position: center;
+  background-size: contain;
+  padding: 4.7rem 0 7.6rem 0;
+  background-repeat: no-repeat;
+}
+
+.section-3 h2 {
+  padding-bottom: 3rem;
+  display: inline-block;
+}
+
+footer {
+  padding: 1.2rem 0;
+}
+
+.ffff {
+  font-size: 1.3em;
+  padding: 0 .4rem;
+}
+
+.question {
+  padding-bottom: 1rem;
+}
+
+.question button {
+  font-size: .75em;
+  margin-right: .7rem;
+}
+
+.cl {
+  border: 3px yellow solid;
+}
+
+.cr {
+  border: 2px #aaa solid;
+}
+
+.breadcrumb {
+  background: none;
+  color: #aaa;
+  font-size: .9em;
+}
+
+.breadcrumb a {
+  color: gray;
+}
+
+.breadcrumb li a:hover {
+  text-decoration: none;
+}
+
+.bottom, .b-l {
+  font-size: .7em;
+}
+
+.html h3 {
+  padding: 1rem 0 1rem 0;
+}
+
+.html p, .htmlp {
+  font-size: 1.4em;
+}
+
+.htmlp {
+  padding-top: 1.7rem;
+}
+
+.card-title {
+  font-size: 1.2em;
+}
+
+.cdd {
+  border-bottom: 1px solid #eee;
+}
+
+.card-body {
+  background: #fafafa;
+}
+
+.card-text {
+  padding-left: 0;
+}
+
+.card-text li {
+  padding-bottom: 1rem;
+}
+
+.app {
+  padding: 2rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.app ul {
+  padding: 0;
+}
+
+.app h4 {
+  font-weight: bold;
+  padding-bottom: 1.3rem;
+}
+
+.ddd h4 {
+  font-size: 1.2em;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-youtube, .fa-instagram {
+  font-size: 1.3em;
+  padding-left: 1.2rem;
+}
+
+.gha {
+  padding: 2rem 0;
+}
+
+/* アコーディオン */
+.accordions .card-header {
+  background-color: rgba(0, 0, 0, 0.01);
+  border-bottom: none;
+}
+
+.accordions .card-header a {
+  color: black;
+}
